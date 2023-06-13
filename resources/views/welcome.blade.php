@@ -42,7 +42,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-3 logo">
-                    <a href="index.html"><img src="images/logo-philex-logistics.png" alt="Tarim Logistix" /></a>
+                    <a href="{{ url('/') }}"><img src="{{asset('temp/tarim/images/logo-philex-logistics.png')}}" alt="Tarim Logistix" /></a>
                 </div>
                 <div class="col-md-9 col-sm-12 col-xs-9">
                    <!-- Menu -->
@@ -90,7 +90,7 @@
                 <!-- SLIDE  -->
                 <li data-index="rs-129" data-transition="fade" data-slotamount="default" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-title="<span>1</span>Tarim Logistix" data-description="Nationwide Logistic Experts">
                     <!-- MAIN IMAGE -->
-                    <img src="images/slides/philex-logistics-transport1.jpg" alt="Tarim Logistix" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                    <img src="{{asset('temp/tarim/images/slides/philex-logistics-transport1.jpg')}}" alt="Tarim Logistix" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     <!-- LAYERS -->
                     <h1 class="tp-caption  tp-resizeme text-center color_white text_bold p-48"
                         data-x="center"
@@ -130,7 +130,7 @@
                   </div>
                 </li>
 
-                <li data-index="rs-130" data-transition="slideleft" data-slotamount="default" data-rotate="0" data-title="<span>2</span> Air Freight" data-description="Worldwide covering"> <img src="images/slides/philex-logistics-airfrieght1.jpg" alt="Tarim Logistix" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                <li data-index="rs-130" data-transition="slideleft" data-slotamount="default" data-rotate="0" data-title="<span>2</span> Air Freight" data-description="Worldwide covering"> <img src="{{asset('temp/tarim/images/slides/philex-logistics-airfrieght1.jpg')}}" alt="Tarim Logistix" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                     <h1 class="tp-caption  tp-resizeme color_white text_bold p-48"
                         data-x="left"
@@ -285,7 +285,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="pro-video">
-                        <img src="images/philex-logistics-uganda.jpg" alt="Tarim Logistix" class="img-responsive"/>
+                        <img src="{{asset('temp/tarim/images/philex-logistics-uganda.jpg')}}" alt="Tarim Logistix" class="img-responsive"/>
 					</div>
                 </div>
             </div>
