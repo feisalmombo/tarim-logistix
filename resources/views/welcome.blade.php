@@ -173,7 +173,7 @@
                 </li>
 
                 <li data-index="rs-131" data-transition="slideleft" data-rotate="0" data-title="<span>3</span> Ocean Freight" data-description="For all the imports and exports">
-                <img src="images/slides/philex-logistics-oceanfreight.jpg" alt="Tarim Logistix" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                <img src="{{asset('temp/tarim/images/slides/philex-logistics-oceanfreight.jpg')}}" alt="Tarim Logistix" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                     <h1 class="tp-caption  tp-resizeme color_white text_bold text-center p-48"
                         data-x="center"
