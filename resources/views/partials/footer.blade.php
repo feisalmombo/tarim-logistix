@@ -3,7 +3,7 @@
       <b>Version</b> 1.0.0
     </div>
     <strong>
-        &copy; {{date('Y')}} Logistics Africa All Rights Reserved. <a href="#" target="_blank"><strong style="color:#EE4323;">A Product by Doctor with africa</strong></a>
+        &copy; {{date('Y')}} Tarim Logistix Company Limited All Rights Reserved. <a href="#" target="_blank"><strong style="color:#EE4323;">A Product by Doctor with africa</strong></a>
     </strong>
 </footer>
 
