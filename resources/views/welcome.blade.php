@@ -219,7 +219,7 @@
                 </li>
 
                 <li data-index="rs-132" data-transition="slideleft" data-rotate="0" data-title="<span>4</span> Warehousing" data-description="For any size of cargo or goods">
-                 <img src="images/slides/philex-logistics-warehousing.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                 <img src="{{asset('temp/tarim/images/slides/philex-logistics-warehousing.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 
                     <h1 class="tp-caption  tp-resizeme color_white text_bold text-center"
                         data-x="center"
