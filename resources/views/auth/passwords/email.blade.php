@@ -27,7 +27,7 @@
     <div class="form-input-content">
         <div class="card login-form mb-0">
             <div class="card-body pt-5">
-            <a class="text-center" href="{{url('/')}}"> <h4><strong style="color:#2B3483">Logistics Africa</strong><strong style="color:#E58225">.</strong></h4></a>
+            <a class="text-center" href="{{url('/')}}"> <h4><strong style="color:#2B3483">Tarim Logistix Company Limited</strong><strong style="color:#E58225">.</strong></h4></a>
             @include('msgs.success')
             @if (session('status'))
                         <div class="alert alert-success">
