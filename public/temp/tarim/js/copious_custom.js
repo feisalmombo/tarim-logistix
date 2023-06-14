@@ -27,7 +27,7 @@ var revapi;
 			sliderLayout:"fullwidth",
 			delay:5000,
 			navigation: {
-				arrows:{enable:true}				
+				arrows:{enable:true}
 			},
 			touch:{
 			 touchenabled:"on",
@@ -35,10 +35,10 @@ var revapi;
 			 swipe_min_touches: 1,
 			 swipe_direction: "horizontal",
 			 drag_block_vertical: false
-		 },			
+		 },
 			gridwidth:1170,
-			gridheight:788		
-});	
+			gridheight:788
+});
 var revapi;
 		revapi = jQuery("#rev_slider_3").revolution({
 			sliderType:"standard",
@@ -46,7 +46,7 @@ var revapi;
 			hide_under:778,
 			delay:5000,
 			navigation: {
-				arrows:{enable:true}				
+				arrows:{enable:true}
 			},
 			touch:{
 			 touchenabled:"on",
@@ -54,14 +54,14 @@ var revapi;
 			 swipe_min_touches: 1,
 			 swipe_direction: "horizontal",
 			 drag_block_vertical: false
-		 },			
+		 },
 			gridwidth:1170,
-			gridheight:920		
-});	
+			gridheight:920
+});
 
-// For Our Partners					
+// For Our Partners
 $("#our-partner-slider").owlCarousel({
-     
+
           autoPlay: 3000, //Set AutoPlay to 3 seconds
           items : 5,
 		  navigation : true,
@@ -86,7 +86,7 @@ $("#about_slider").owlCarousel({
 		  navigation : false,
 		  pagination : true
 });
-// Map Banner 
+// Map Banner
   var owl = $("#map_banner");
 
   owl.owlCarousel({
@@ -98,7 +98,7 @@ $("#about_slider").owlCarousel({
   });
 // Recent Projects
 $(".recent_project-slider, .recent_project_3_slider, #our_team_slider_3, #services_slider").owlCarousel({
-     
+
           autoPlay: false, //Set AutoPlay to 3 seconds
           items : 3,
 		  navigation : true,
@@ -111,33 +111,33 @@ $(".recent_project-slider, .recent_project_3_slider, #our_team_slider_3, #servic
  });
 // For Testinomials
 $("#testimonial-slider").owlCarousel({
-		autoPlay: 3000, 
+		autoPlay: 3000,
 		slideSpeed : 300,
 		paginationSpeed : 400,
 		singleItem:true,
 		pagination:true,
 		paginationNumbers:false,
- 
+
  });
 // For Latest News
 $("#latest_news-slider").owlCarousel({
-		autoPlay: 3000, 
+		autoPlay: 3000,
 		items : 2,
 		slideSpeed : 300,
 		paginationSpeed : 400,
 		pagination:true,
 		paginationNumbers:false,
- 
+
  });
  // For Latest News
 $("#latest_news-slider_1").owlCarousel({
-		autoPlay: 3000, 
+		autoPlay: 3000,
 		items : 3,
 		slideSpeed : 300,
 		paginationSpeed : 400,
 		paginationNumbers:false,
 		dots:true,
- 
+
  });
 $("#team_slider_2").owlCarousel({
 		  autoPlay: true, //Set AutoPlay to 3 seconds
@@ -158,7 +158,7 @@ $("#project_slider").owlCarousel({
 });
 // Shope Slider
 $("#shop-slider").owlCarousel({
-     
+
           autoPlay: false, //Set AutoPlay to 3 seconds
           singleItem : true,
 		  navigation : true,
@@ -173,7 +173,7 @@ $("#shop_2_slider").owlCarousel({
         paginationSpeed : 400,
 		pagination : true
 });
-                    
+
   $('#testimonial-slider_2').owlCarousel({
 		center: true,
 		items: 3,
@@ -181,7 +181,7 @@ $("#shop_2_slider").owlCarousel({
 		margin: 0,
         dots: true,
         dotData: true,
-   
+
 
 	});
 // ============= For Search Icon Effect =============
@@ -212,7 +212,7 @@ $("#shop_2_slider").owlCarousel({
 	  var $this = $(this);
 	  if ($this.hasClass("expanded")) {
 		 $this.removeClass("expanded");
-	  } 
+	  }
 	  else {
 	  $(".items a.expanded").removeClass("expanded");
 	  $this.addClass("expanded");
@@ -220,7 +220,7 @@ $("#shop_2_slider").owlCarousel({
 	}
 	  $this.parent().children("ul").stop(true, true).slideToggle("normal");
 });
-	   
+
 // ============= TOGGLES ICON =============
 		jQuery('.toggle-heading').on('click', function(){
 			jQuery(this).find('i').toggleClass('fa-minus fa-plus');
@@ -236,8 +236,8 @@ $(".selectbox").selectbox();
 			$(this).parent().find('.leftLabel').text(leftValue);
 			$(this).parent().find('.rightLabel').text(rightValue);
 		}
-});	
-	
+});
+
 // ============= Cart =============
 $("[name='checkbox2']").change(function() {
 	if(!confirm('Do you wanna cancel me!')) {
@@ -250,7 +250,7 @@ $('#colorful').bootstrapNumber({
 	upClass: 'success',
 	downClass: 'danger'
 });
-/**************** Progress *******************/		
+/**************** Progress *******************/
 	$('.progressbar1').progressBar({
 			shadow : true,
 			percentage : true,
@@ -271,8 +271,8 @@ $('#colorful').bootstrapNumber({
 		barColor : "#f71735",
 	});
 
-	
-/**************** Selected *******************/	
+
+/**************** Selected *******************/
  $(setup)
     function setup() {
       $('.intro select').zelect({})
@@ -308,12 +308,12 @@ jQuery(document).ready(function(){
 			}
 		});
 	});
-	
+
 });
 
 
 
-<!-- Smooth Scrol -->	 
+// <!-- Smooth Scrol -->
 $(function(){
 
 var $window = $(window);		//Window object
@@ -323,7 +323,7 @@ var scrollDistance = 355;		//Distance. Use smaller value for shorter scroll and 
 
 $window.on("mousewheel DOMMouseScroll", function(event){
 
-event.preventDefault();	
+event.preventDefault();
 
 var delta = event.originalEvent.wheelDelta/125 || -event.originalEvent.detail/3;
 var scrollTop = $window.scrollTop();
@@ -331,9 +331,9 @@ var finalScroll = scrollTop - parseInt(delta*scrollDistance);
 
 TweenMax.to($window, scrollTime, {
 scrollTo : { y: finalScroll, autoKill:true },
-ease: Power1.easeOut,	
+ease: Power1.easeOut,
 autoKill: true,
-overwrite: 5							
+overwrite: 5
 });
 
 });
